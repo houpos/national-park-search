@@ -1,0 +1,107 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #EFF2F1;
+  }
+
+  nav {
+    background-color: #899792;
+  }
+  
+   .jumbotron {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 600px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+
+ .jumbotron, #nationalparks {
+    background-image: url('/images/arches2.jpg');
+  }
+
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+  }
+
+  .row .three {
+    width: 25%;
+  }
+
+  .col {
+    border: 2px solid green;
+  }
+
+  .row .nine {
+    width: 75%;
+}
+
+  column, .columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+
+.main-col {
+  padding-right: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+  #skill-list {
+    text-align: center;
+  }
+
+  #skill-list li {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  section {
+    padding-bottom: 30px;
+  }
+  
+  section .row img {
+    /* margin: 0 0 30px; */
+    width: 100%;
+  }
+
+  .card-deck {
+    margin-bottom: 30px;
+  }
+  
+  .carousel img {
+    height: 360px;
+    width: 100%
+  
+  }
+  
+  .nodecor a {
+    text-decoration: none;
+  }
+
+    #results {
+      display: none;
+      max-width: 900px;
+      margin: auto;
+      visibility: hidden;
+    }
+
+
